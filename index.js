@@ -4,6 +4,7 @@ const file = require("./220.epub");
  window.onload = () => {
      console.log(file)
     var book = ePub(file);
-    var rendition = book.renderTo("area", { method: "continuous", width: "100%", height: "100%" });
-    var displayed = rendition.display();
+    var rendition = book.renderTo("area", { method: "default", flow: "scrolled-doc", width: '100vw', height: '100vh'});
+    var displayed = rendition.display(3);
+    window.rendition = rendition;
  }
