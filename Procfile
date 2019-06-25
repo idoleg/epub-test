@@ -1,0 +1,1 @@
+web: npm install -g parcel-bundler; parcel index.html -p $PORT
