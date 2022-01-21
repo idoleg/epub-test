@@ -7,7 +7,7 @@
   "private": true,
   "dependencies": {
     "e": "0.0.4",
-    "epubjs": "^0.3.84",
+    "epubjs": "^0.3.89",
     "file2html": "^0.2.0",
     "file2html-epub": "^0.3.0"
   }
